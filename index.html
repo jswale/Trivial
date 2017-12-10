@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Trival Quizz</title>
+<link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+<link rel="stylesheet" href="css/trivial.css" type="text/css"/>
+<link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+<div class="board">
+	<div class="waiting">Chargement des données en cours</div>	
+</div>
+<!-- DEPENDENCIES -->
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/trivial.js"></script>
+<script type="text/javascript" src="js/themes.js"></script>
+<script type="text/javascript" src="js/games.js"></script>
+
+<!-- MAIN APPLICATION -->
+<script type="text/javascript">
+$(document).ready(function() {
+	Trivial.init();
+});
+</script>
+
+</body>
+</html>
